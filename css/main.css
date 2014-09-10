@@ -8,7 +8,9 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
+    
+background-color: lightgrey;
+    
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -20,43 +22,55 @@ html {
 box-sizing: inherit;
 }
 
+h1 {
+    margin: 0.90rem;
+}
+
 img {
-    margin: 0;
-    padding: 0;
     display: block;
     width: 100%;
+}
+
+.dino {
+    overflow: hidden;
+    background-color: white;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-size: 2rem;
 }
 
 div {
     float: left;
-    padding: 1rem;
-    width: 33.3333%;    
+    padding: 0.90rem;
+    width: 33.3333%;
 }
 
 .info {
     float: left;
     padding: 1rem;
     width: 33.3333%;
+    border-right: 1px solid #ccc;
 }
-
-fig {
-    position: relative;
-}
+ .info:last-child {
+     border: 0;
+ }
 
 .graphic {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .graphic-caption {
-    background-color: rgba (0,0,0,0.3);
-    color: #fff;
+    margin: 1rem;
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
+    padding: 0.3rem;
+    color: white;
+    background-color: rgba (0,0,0,0.3);
+    font-style: italic;
+    font-size: .90rem;
+    font-family: gorgia, sans-serif;
 }
