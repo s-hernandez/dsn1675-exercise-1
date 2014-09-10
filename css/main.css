@@ -17,15 +17,46 @@ html {
 }
 
 *, *:before, *:after {
-  box-sizing: inherit;
+box-sizing: inherit;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  background-size: 2rem;
 }
 
-img {
-  display: block;
-  width: 100%;
+div {
+    float: left;
+    padding: 1rem;
+    width: 33.3333%;    
+}
+
+.info {
+    float: left;
+    padding: 1rem;
+    width: 33.3333%;
+}
+
+fig {
+    position: relative;
+}
+
+.graphic {
+    margin: 0;
+    padding: 0;
+}
+
+.graphic-caption {
+    background-color: rgba (0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
 }
