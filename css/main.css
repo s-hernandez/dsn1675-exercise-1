@@ -23,7 +23,9 @@ box-sizing: inherit;
 }
 
 h1 {
-    margin: 0.90rem;
+    margin: 0;
+    font-size: 1.1rem;
+    padding: 1.3rem;
 }
 
 img {
@@ -69,8 +71,8 @@ div {
     bottom: 0;
     padding: 0.3rem;
     color: white;
-    background-color: rgba (0,0,0,0.3);
+    background-color: (0,0,0,0.3);
     font-style: italic;
     font-size: .90rem;
-    font-family: gorgia, sans-serif;
+    font-family: georgia, sans-serif;
 }
